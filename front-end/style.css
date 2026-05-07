@@ -1,0 +1,77 @@
+body {
+  background: #fffaf3;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #f8b400;
+}
+
+/* HERO (HOME) */
+.hero {
+  height: 85vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('img/bolo.png') center/cover no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/* HEADER (CARDÁPIO) */
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('img/bolo.png') center/cover no-repeat;
+  height: 250px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* CARD (GLOBAL) */
+.card {
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: 0.3s;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* TITULOS */
+.section-title {
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background: #f8b400;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+/* BOTÃO PEDIR */
+.btn-pedir {
+  background: #f8b400;
+  color: white;
+  border: none;
+}
+
+.btn-pedir:hover {
+  background: #e6a800;
+  color: white;
+}

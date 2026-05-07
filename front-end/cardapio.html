@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio - Sempre Doce</title>
+  <link rel="icon" href="img/logo.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+    <div class="container">
+
+      <!-- LOGO -->
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+        <img src="img/logo.png" alt="Logo Sempre Doce" width="40" height="40" class="rounded-circle">
+        Sempre Doce
+      </a>
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="index.html#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="cardapio.html">Cardápio</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div>
+      <h1 class="display-5 fw-bold">Cardápio Completo</h1>
+      <p>Escolha seu doce favorito 🍰</p>
+    </div>
+  </div>
+
+  <!-- CONTEÚDO -->
+  <div class="container py-5">
+    <h2 class="section-title">Nossos Produtos</h2>
+
+    <div class="row" id="cardapio"></div>
+  </div>
+
+  <!-- CONTATO -->
+  <section id="contato" class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title">Contato</h2>
+
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <i class="bi bi-telephone-fill fs-2 text-warning"></i>
+          <p>(11) 98765-4321</p>
+        </div>
+
+        <div class="col-md-4">
+          <i class="bi bi-envelope-fill fs-2 text-warning"></i>
+          <p>contato@sempredoce.com</p>
+        </div>
+
+        <div class="col-md-4">
+          <i class="bi bi-geo-alt-fill fs-2 text-warning"></i>
+          <p>São Paulo - SP</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="mb-0">&copy; 2026 Confeitaria Sempre Doce</p>
+  </footer>
+
+  <!-- BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/cardapio.js"></script>
+</body>
+</html>
